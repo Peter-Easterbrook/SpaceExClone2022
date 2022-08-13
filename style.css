@@ -188,7 +188,7 @@ section {
   animation-fill-mode: both; /* Stops initial show */
 }
 .section-inner h2 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 4vw, 3.6rem);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-weight: 600;
@@ -409,13 +409,13 @@ footer ul li a:hover {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding: 3rem;
-  height: 100%;
+  padding: 50px;
+  width: 100%;
 }
 
 .mobile-main-menu ul li {
   margin-bottom: 2rem;
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, 1vw, 1rem);
   font-weight: 300;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
